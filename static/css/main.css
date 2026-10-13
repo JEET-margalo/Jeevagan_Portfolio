@@ -5,3 +5,6 @@
 
 .skill-pill i{font-size:22px;color:var(--primary);margin-bottom:9px;text-shadow:0 0 16px rgba(32,224,112,.35)}
 .skill-pill{position:relative;overflow:hidden}.skill-pill:after{content:"";position:absolute;right:-18px;top:-18px;width:55px;height:55px;border-radius:50%;background:rgba(32,224,112,.07)}
+
+/* Final tool placement fix */
+.skill-console{display:grid!important;gap:18px!important}.skill-items{display:grid!important;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))!important;gap:14px!important}.skill-pill{min-height:92px!important;display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:center!important;gap:4px!important}.skill-pill i{font-size:24px!important;margin-bottom:8px!important}.skill-pill strong{font-size:15px!important}.skill-pill small{font-size:12px!important}@media(max-width:520px){.skill-items{grid-template-columns:1fr!important}}
